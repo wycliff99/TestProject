@@ -1,0 +1,38 @@
+{% extends 'layout.html' %}
+{% block title %}HFS | Template{% endblock %}
+{% block nav %}
+    <li class="m_nav_item menu__item menu__item--current" id="m_nav_item_1"> <a href="index" class="menu__link"> Home </a></li>
+    <li class="m_nav_item menu__item" id="moble_nav_item_2"> <a href="about" class="menu__link"> About Us </a> </li>
+    <li class="m_nav_item menu__item" id="moble_nav_item_6"> <a href="contact" class="menu__link"> Contact </a> </li>
+    <li class="m_nav_item menu__item" id="moble_nav_item_3 dropdown"> <a href="#" class="menu__link dropdown-toggle" data-toggle="dropdown">Features  <b class="caret"></b></a>
+        <ul class="dropdown-menu agile_short_dropdown">
+            <li><a href="MedicalRecords">Medical report</a></li>
+            <li><a href="appointment">Book an appointment</a></li>
+            <li><a href="Calories">Diet tracker</a></li>
+            <li><a href="hospital_info">Nearby hospitals</a></li>
+        </ul>
+    </li>
+{% endblock %}
+{% block body %}
+    <div class="item-content">
+	<div class="banner1 jarallax">
+		<div class="container">
+		</div>
+	</div>
+    </div>
+
+	<div class="services-breadcrumb">
+		<div class="container">
+        <ul>
+				<li><a href="index.html">Home</a><i>|</i></li>
+				<li><a href="#">User's</a><i>|</i></li>
+                <li>Calories<i>|</i></li>
+			</ul>
+		</div>
+	</div>
+<!-- //banner1 -->
+<!-- icons -->
+	<div class="banner-bottom" id="about">
+
+    </div>
+{% endblock %}

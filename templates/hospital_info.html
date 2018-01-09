@@ -1,0 +1,79 @@
+{% extends 'layout.html' %}
+{% block title %}HFS | Location{% endblock %}
+{% block nav %}
+    <li class="m_nav_item menu__item" id="moble_nav_item_1"> <a href="/index" class="menu__link"> Home </a></li>
+    <li class="m_nav_item menu__item" id="moble_nav_item_2"> <a href="/about" class="menu__link"> About Us </a> </li>
+    <li class="m_nav_item menu__item" id="moble_nav_item_6"> <a href="/contact" class="menu__link"> Contact </a> </li>
+    <li class="m_nav_item menu__item menu__item--current" id="moble_nav_item_3 dropdown"> <a href="#" class="menu__link dropdown-toggle" data-toggle="dropdown">Features  <b class="caret"></b></a>
+        <ul class="dropdown-menu agile_short_dropdown">
+            <li><a href="/MedicalRecords">Medical report</a></li>
+            <li><a href="/appointment">Book an appointment</a></li>
+            <li><a href="/Calories">Diet tracker</a></li>
+            <li><a href="/hospital_info">Nearby hospitals</a></li>
+        </ul>
+    </li>
+{% endblock %}
+{% block body %}
+
+<!-- icons -->
+    	<div class="item-content">
+	<div style="background: url(../static/images/info_backgound.jpg) no-repeat 0px -99px; background-size: cover; min-height:300px;
+	z-index: -1; " >
+		<div class="container">
+		</div>
+	</div>
+    </div>
+	<div class="banner-bottom" id="about">
+		<div class="container">
+		  <h2 class="heade_tittle_agile">Location</h2>
+		  <p class="sub_t_agileits">Choose which region you live in</p>
+		  		<div class="row">
+		  			<div class="location col-lg-4 col-lg-offset-2" style="">
+						<a href="/north_SGP"><div style="height: 300px; padding: 20px; background-image: url(../static/images/info_north.jpg); height: 300px;">
+							<h2>North of Singapore</h2>
+								<p style="color: white">Lim Chu Kang, Mandai, Sembawang, Simpang, Sungei Kadut, Woodlands, Yishun</p>
+							</div></a>
+					</div>
+					<div class="location col-lg-4 col-lg-offset-0" style="height: 300px">
+						<a href="/central_SGP"><div style="height: 300px; padding: 20px; background-image: url(../static/images/info_central.jpg)">
+						  <h2>Central Singapore</h2>
+						    <p style="color: white">Bishan, Bukit Merah, Bukit Timah, Geylang, Kallang, Marine Parade, Novena, Queenstown, Tanglin, Toa Payoh.</p>
+							</div></a>
+					</div>
+				</div>
+  				<br>
+	  			<div class="row">
+		  			<div class="location col-lg-4 col-lg-offset-2" style="height: 300px">
+						<a href="/east_SGP"><div style="height: 300px; padding: 20px; background-image: url(../static/images/info_east.jpg); height: 300px;">
+						  <h2>East of Singapore</h2>
+						  
+							<p style="color: white">Bedok, Changi, Pasir Ris, Paya Lebar, Tampines.</p>
+							
+							</div></a>
+					</div>
+					<div class="location col-lg-4 col-lg-offset-0" style="height: 300px">
+						<a href="/west_SGP"><div style="height: 300px; padding: 20px; background-image: url(../static/images/info_west.jpg);">
+						  <h2>West of Singapore</h2>
+
+							<p style="color: white">Boon Lay, Bukit Batok, Bukit Panjang, Chua Chu Kang, Clementi, Jurong East, Jurong West, Pioneer, Tengah, Tuas.</p>
+
+							</div></a>
+					</div>
+				</div>
+            </div>
+
+		</div>
+
+<!-- icons -->
+
+
+
+{% endblock %}
+
+
+
+
+
+
+
+

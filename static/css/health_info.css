@@ -1,0 +1,20 @@
+.infotable {background-color: black;
+	font-size: 1.4em;
+	color: black
+}
+
+.infotable thead tr th{
+	color: white
+}
+
+.infotablebody {
+	background-color: snow;
+
+}
+
+.infotablebody tr td {
+	color: black
+}
+.location a div p {
+	color: white;
+}s

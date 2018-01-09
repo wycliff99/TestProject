@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>{% block title %}{% endblock %}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- //for-meta-tags-->
+<link href="static/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="stylesheet" href="static/css/flexslider.css" type="text/css" media="screen" Department="" />
+<link href="static/css/services.css" rel="stylesheet" type="text/css" media="all" />
+<link href="static/css/ziehharmonika.css" rel="stylesheet" type="text/css">
+<link href="static/css/JiSlider.css" rel="stylesheet">
+<link href="static/css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- font-awesome icons -->
+<link href="static/css/font-awesome.css" rel="stylesheet">
+{% block custom_css %}{% endblock %}
+</head>
+<body>
+{%  block additionalscripts %}{% endblock %}
+<div class="main navbar-fixed-top" id="home">
+{% include 'includes/_navbar1.html' %}
+    {% block nav %} {% endblock %}
+    </ul>
+				</nav>
+
+				</div>
+				<!-- /.navbar-collapse -->
+			</nav>
+	 </div>
+<!-- banner -->
+</div>
+    {% block body %}{% endblock %}
+
+
+{% include 'includes/_footer.html' %}
+{% include 'includes/_script.html' %}
+</body>
+</html>

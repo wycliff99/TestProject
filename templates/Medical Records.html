@@ -1,0 +1,114 @@
+{% extends 'layout.html' %}
+{% block title %}HFS | Home{% endblock %}
+{% block custom_css %}<link href="static/css/records.css" rel="stylesheet">{% endblock %}
+{% block nav %}
+    <li class="m_nav_item menu__item menu__item--current" id="m_nav_item_1"> <a href="index" class="menu__link"> Home </a></li>
+    <li class="m_nav_item menu__item" id="moble_nav_item_2"> <a href="about" class="menu__link"> About Us </a> </li>
+    <li class="m_nav_item menu__item" id="moble_nav_item_6"> <a href="contact" class="menu__link"> Contact </a> </li>
+    <li class="m_nav_item menu__item" id="moble_nav_item_3 dropdown"> <a href="#" class="menu__link dropdown-toggle" data-toggle="dropdown">Features  <b class="caret"></b></a>
+        <ul class="dropdown-menu agile_short_dropdown">
+            <li><a href="MedicalRecords">Medical report</a></li>
+            <li><a href="appointment">Book an appointment</a></li>
+            <li><a href="Calories">Diet tracker</a></li>
+            <li><a href="hospital_info">Nearby hospitals</a></li>
+        </ul>
+    </li>
+{% endblock %}
+
+{% block body %}
+<!-- banner -->
+<!-- banner1 -->
+	<div class="item-content">
+	<div class="banner1 jarallax">
+		<div class="container">
+		</div>
+	</div>
+    </div>
+
+	<div class="services-breadcrumb">
+		<div class="container">
+			<ul>
+				<li><a href="index.html">Home</a><i>|</i></li>
+				<li>User's</li>
+			</ul>
+		</div>
+	</div>
+<!-- //banner1 -->
+<!-- icons -->
+
+<div class="banner-bottom" id="about">
+		<div class="container">
+				<p>Patient Name: John Tan</p>
+				Gender: <label>Male <input type="checkbox" checked/></label>
+<label>Female <input type="checkbox" /></label>
+
+
+<p>Date of birth: 22/11/1989</p>
+<p>Height: 190cm &nbsp;&nbsp;  Weight: 85kg</p>
+<p>Blood pressure: 120/80mm Hg</p>
+
+<p>Family Medical history:</p>
+<p>Father: Diabetes &nbsp;&nbsp;Mother: -Nil-</p>
+
+
+<div class="datagrid">
+    <table>
+        <thead><tr><th>Conditions that you are suffering from:</th><th>Yes</th><th>No</th>
+        <tbody><tr><td>Mental disorder</td><td><input type="checkbox" /></td><td><input type="checkbox" checked/></td></tr>
+        <tr class="alt"><td>Asthma</td><td><input type="checkbox" checked/></td><td><input type="checkbox" /></td>
+        <tr><td>Tuberculosis</td><td><input type="checkbox" /></td><td><input type="checkbox" checked/></td>
+        <tr class="alt"><td>Diabetes</td><td><input type="checkbox" /></td><td><input type="checkbox" checked/></td>
+        <tr class="alt"><td>HIV Positive/AIDS</td><td><input type="checkbox" checked/></td><td><input type="checkbox" /></td>
+        <tr class="alt"><td>Epilepsy</td><td><input type="checkbox" /></td><td><input type="checkbox" checked/></td>
+        <tr class="alt"><td>Dyslexia</td><td><input type="checkbox" /></td><td><input type="checkbox" checked/></td>
+        <tr class="alt"><td>Diabetes</td><td><input type="checkbox" /></td><td><input type="checkbox" checked/></td>
+        </tbody>
+    </table>
+</div>
+<div class='datagrid'>
+    <table>
+        <thead><tr><th>Food that you are allergic to:</th><th>Yes</th><th>No</th>
+        <tbody><tr><td>Nuts</td><td><input type="checkbox" checked/></td><td><input type="checkbox" /></td></tr>
+        <tr class="alt"><td>Pets</td><td><input type="checkbox" checked/></td><td><input type="checkbox" /></td>
+        <tr><td>Drugs (e.g asprin)</td><td><input type="checkbox" /></td><td><input type="checkbox" checked/></td>
+        <tr class="alt"><td>Latex</td><td><input type="checkbox" /></td><td><input type="checkbox" checked/></td>
+        </tbody>
+	</table>
+</div>	
+
+<div class='datagrid'>
+    <table>
+        <thead><tr><th>Physical Examination</th><th>Healthy</th><th><strong>Unhealthy! please make an appointment</th>
+        <tbody><tr><td>Ears</td><td><input type="checkbox" checked/></td><td><input type="checkbox" /></td></tr>
+        <tr class="alt"><td>Nose</td><td><input type="checkbox" checked/></td><td><input type="checkbox" /></td>
+        <tr><td>Gums</td><td><input type="checkbox" /></td><td><input type="checkbox" checked/></td>
+        <tr class="alt"><td>Skin</td><td><input type="checkbox" /></td><td><input type="checkbox" checked/></td>
+		<tr class="alt"><td>Teeth</td><td><input type="checkbox" /></td><td><input type="checkbox" checked/></td>
+		<tr class="alt"><td>Spine</td><td><input type="checkbox" /></td><td><input type="checkbox" checked/></td>
+        </tbody>
+	</table>
+</div>	
+
+<button type="button" onclick= "alert('You will be redirected to an update page')">Update info</button>
+
+        </div>
+	</div>
+<!-- icons -->
+{% endblock %}
+
+
+
+<!-- footer -->
+
+<!-- //footer -->
+ <!-- js -->
+
+			<!-- //Calendar -->
+
+<!-- bootstrap-pop-up -->
+
+<!-- //bootstrap-pop-up -->
+<!-- start-smoth-scrolling -->
+
+<!-- //here ends scrolling icon -->
+
