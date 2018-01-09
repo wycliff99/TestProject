@@ -5,7 +5,7 @@ import firebase_admin
 from firebase_admin import credentials, db
 from Bookings import Patient
 
-cred = credentials.Certificate('./cred/medical-project-9a0e0-firebase-adminsdk-btoyv-e8a2534b31.json')
+cred = credentials.Certificate('cred/medical-project-9a0e0-firebase-adminsdk-btoyv-e8a2534b31.json')
 default_app = firebase_admin.initialize_app(cred, {
     'databaseURL': 'https://medical-project-9a0e0.firebaseio.com/'
 })
@@ -149,4 +149,4 @@ def appsuccess():
 
 
 if __name__ == '__main__':
-    app.run()
+    app.run(port='80')
